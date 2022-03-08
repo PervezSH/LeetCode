@@ -1,4 +1,5 @@
 class Solution:
+    # O(1) time | O(1) space
     def isBoomerang(self, points: List[List[int]]) -> bool:
         # destructure three points
         x1, y1 = points[0]
