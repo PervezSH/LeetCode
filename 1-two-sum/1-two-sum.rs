@@ -1,5 +1,6 @@
 use std::collections::HashMap;
 impl Solution {
+    // O(n) time | O(n) space - where n is length of the array
     pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
         let mut differences: HashMap<i32, usize> = HashMap::new();
         for (pos, num) in nums.iter().enumerate() {
